@@ -3,3 +3,11 @@
 body { 
     font-family: 'Poppins', sans-serif;
 }
+
+.container {
+    width: 90%; /* Ocupar este porcentaje de pantalla y no todo hacia los lados */
+    max-width: 1200px; /* Ancho Max */
+    margin: 0 auto; /*Para centrar verticalmente el elemento container */
+    overflow: hidden; /* Todo lo que salga del elemento se esconda */
+    background-color: black;
+}
