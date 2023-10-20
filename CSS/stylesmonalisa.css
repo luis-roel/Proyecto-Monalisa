@@ -104,19 +104,17 @@ body {
     font-size: 3rem;
 }
 
-.hero_paragraph {
+/* .hero_paragraph {
     margin-bottom: 20px;
-}
+} */
 
 .cta {
     display: inline-block;
     /* sección de colores del esquema section */
-    background-color: #FFD166;
+    background-color: #e7ab1f;
     justify-self: center; /* juntar el bloque de menu con el bloque de color*/
     color: #ffff;
     text-decoration: none; /* quita la linea de hipervinculo en el texto */
-    padding: 13px 22px;
+    padding: 13px 30px;
     border-radius: 32px;
-
-
 }
