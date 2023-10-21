@@ -7,6 +7,8 @@ body {
 :root {
     --padding-container: 100px 0; /* Creación de una variable con propiedades */
     --color-title: #001a49;
+    --color-gallerybackground: #333;
+    
 }
 
 .container {
@@ -121,3 +123,24 @@ body {
 
 /* Galeria main - section ¿quiénes somos? */
 
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    min-width: 600px;
+    max-width: 900px;
+    transition: all 0.5s;
+    background: var(--color-gallerybackground);
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+    min-width: 60px;
+    margin: 10px;
+    background-size: auto 100%;
+
+}
