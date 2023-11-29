@@ -122,9 +122,9 @@ body {
 }
 
 /* Galeria main - section ¿quiénes somos? */
-
-.about_container {
-    color: azure;
+.about_container{
+    font-size: 1rem;
+    color: #ffff;
 }
 
 .gallery_photos {
