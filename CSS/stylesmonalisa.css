@@ -125,7 +125,13 @@ body {
 .about_container{
     font-size: 1rem;
     color: #ffff;
+    display: inline-block;
+    background-color: #333;
+    justify-self: center;
+    border-radius: 32px;
 }
+
+
 
 .gallery_photos {
     padding:0;
