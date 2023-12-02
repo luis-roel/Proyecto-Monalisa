@@ -123,11 +123,17 @@ body {
 }
 
 /* Galeria main - section ¿quiénes somos? */
+
+.logo {
+    background-color: black;
+}
 .about_container{
     font-family: 'poppins', sans-serif;
     position: relative;
     left: 400px;
     margin-top: 5%;
+    box-shadow: 0px 0px 50px -1px rgba(0, 0, 0, .5);
+    padding: 0px 30px;
     display: flex;
     align-items: flex-start; /* alinear los elementos al inicio */
     justify-content: flex-start; 
@@ -149,7 +155,7 @@ body {
     word-break: break-all; /* Para que el texto se ajuste al tamaño del contenedor */
 }
 
-
+/* Sección galeria de fotos Monalisa */
 
 .gallery_photos {
     padding:0;
