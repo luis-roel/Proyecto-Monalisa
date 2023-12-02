@@ -125,7 +125,13 @@ body {
 /* Galeria main - section ¿quiénes somos? */
 
 .logo {
-    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 250px;
+    height: 350px;
+    background-color:#24262b;
+    transition: 1s linear;
 }
 .about_container{
     font-family: 'poppins', sans-serif;
