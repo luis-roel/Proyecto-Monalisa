@@ -124,17 +124,16 @@ body {
 
 /* Galeria main - section ¿quiénes somos? */
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 250px;
-    height: 350px;
-    background-color:#24262b;
-    transition: 1s linear;
-}
+
 .about_container{
-    font-family: 'poppins', sans-serif;
+    opacity: 0.5;
+    background-image:  repeating-linear-gradient(45deg, #24262b 25%, transparent 25%, transparent 75%, #24262b 75%, #24262b), repeating-linear-gradient(45deg, #24262b 25%, #e5e5f7 25%, #e5e5f7 75%, #24262b 75%, #24262b);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    
+    
+    
+    /* font-family: 'poppins', sans-serif;
     position: relative;
     left: 400px;
     margin-top: 5%;
@@ -142,9 +141,9 @@ body {
     padding: 0px 30px;
     display: flex;
     align-items: flex-start; /* alinear los elementos al inicio */
-    justify-content: flex-start; 
+   /* justify-content: flex-start; 
     flex-direction: column;
-    transition: 1s linear;
+    transition: 1s linear; */
 }
 
 .about_container h1 {
