@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body { 
     font-family: 'Poppins', sans-serif;
@@ -123,11 +124,29 @@ body {
 
 /* Galeria main - section ¿quiénes somos? */
 .about_container{
-    font-size: 1rem;
-    color: #ffff;
-    display: inline-block;
-    background-color:  #24262b;
-    justify-self: center;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    left: 400px;
+    margin-top: 5%;
+    display: flex;
+    align-items: flex-start; /* alinear los elementos al inicio */
+    justify-content: flex-start; 
+    flex-direction: column;
+    transition: 1s linear;
+}
+
+.about_container h1 {
+    font-size: 40px;
+    transition: 1s linear;
+}
+
+.about_container p {
+    
+    color: #24262b;
+    font-size: 20px;
+    font-weight: 80;
+    width: 1000px;
+    word-break: break-all; /* Para que el texto se ajuste al tamaño del contenedor */
 }
 
 
@@ -189,7 +208,6 @@ body {
 .footer {
     padding: 0;
     box-sizing:border-box;
-    
     font-family: sans-serif;
     text-transform: capitalize;
     background-color: #24262b;
@@ -257,7 +275,7 @@ body {
     background-color: #00c3ff;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 991px) { /* Para que se vea en dispositivos mobiles */
     .row_footer {
         text-align: center;
 }
